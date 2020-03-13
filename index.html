@@ -1,121 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Xayed</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-<!--===============================================================================================-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xayed</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/32809a2e09.js" crossorigin="anonymous"></script>
 </head>
 <body>
-	
-	<!--  -->
-	<div class="simpleslide100">
-		<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg01.jpg');"></div>
-		<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg02.jpg');"></div>
-		<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg03.jpg');"></div>
-	</div>
+    <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+    </div> 
+    <div class="container header">
+        <div class="sub-container textPart">
+            <h1 class="normalHeading mgl">Hi I'm</h1>
+            <h1 class="mgl" id="name">Abdullah Zayed</h1>
+            <p class="mgl description">I'm a web developer. I work on both front end and back end. So basically I'm a fullstack developer. I'm looking forward to work on more projects.</p>
+            <a href="https://xaadu.github.io/" class="btn btn-1 mgl">Hire Me</a>
+        </div>
+        <div class="sub-container imagePart1">
+            <img src="images/me2.png" alt="Peter Image" class="pi">
+        </div>
+    </div>
+    <!--<div class="hr"></div>-->
+    <div class="container dream">
+        <div class="sub-container imagePart2">
+            <img src="images/me3.png" alt="Peter Image Dream" class="pi">
+        </div>
+        <div class="sub-container textPart">
+            <h1 class="bigHeading">My Dream</h1>
+            <br>
+            <p class="mgr description">My Dream is to be one of the best "Fullstack Developer" in the world. So I've tried learnig all the popular and unique frameworks of JavaScript and still learning. Already I've acknowledged HTML, CSS, JS(Vanilla, React, Vue, Node) and Python(Flask, Django). Want to know more?</p>
+            <a href="https://xaadu.github.io/" class="btn btn-2">Download CV</a>
+        </div>
+    </div>
+    <!--<div class="hr2"></div>-->
+    <div class="container experiences">
+        <div class="sub-container">
+            <h1 class="bigHeading exp-heading">Experiences</h1><br><br><br>
+        </div>
+        <div class="sub-container exp-boxes">
+            <div class="exp-box box1">
+                <h1 class="normalHeading">Full Stack Developer</h1>
+                <h1 class="subHeading">2020-Present | Development</h1><br>
+                <p class="description">I am an experienced web developer. I know how to make websites and web development tools. I also know about database and system administration work. Also graphics is my strong suit.</p>
+            </div>
+            <div class="exp-box box2">
+                <h1 class="normalHeading">Baby Web Developer</h1>
+                <h1 class="subHeading">2019-2020 | Learner</h1><br>
+                <p class="description">I was an baby web developer. I was learning from UDEMY, Lynda, Youtube and Google. I've tried my best to be a proffesional fullstack developer. I've spent most of my time in this 1 year in Web Design and Development.</p>
+            </div>
+        </div>
+    </div>
+    <!--<div class="hr"></div>
+    <div class="container latest-work">
 
-	<div class="size1 overlay1">
-		<!--  -->
-		<div class="size1 flex-col-c-m p-l-15 p-r-15 p-t-50 p-b-50">
-			<h3 class="l1-txt1 txt-center p-b-25">
-				Coming Soon
-			</h3>
+    </div>
+    <div class="container client">
 
-			<p class="m2-txt1 txt-center p-b-48">
-				My website is under construction, follow me for update now!
-			</p>
-
-			<div class="flex-w flex-c-m cd100 p-b-33">
-				<div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-					<span class="l2-txt1 p-b-9 days">35</span>
-					<span class="s2-txt1">Days</span>
-				</div>
-
-				<div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-					<span class="l2-txt1 p-b-9 hours">17</span>
-					<span class="s2-txt1">Hours</span>
-				</div>
-
-				<div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-					<span class="l2-txt1 p-b-9 minutes">50</span>
-					<span class="s2-txt1">Minutes</span>
-				</div>
-
-				<div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-					<span class="l2-txt1 p-b-9 seconds">39</span>
-					<span class="s2-txt1">Seconds</span>
-				</div>
-			</div>
-
-			<form class="w-full flex-w flex-c-m validate-form">
-
-				<div class="wrap-input100 validate-input where1" data-validate = "Valid email is required: ex@abc.xyz">
-					<input class="input100 placeholder0 s2-txt2" type="text" name="email" placeholder="Enter Email Address">
-					<span class="focus-input100"></span>
-				</div>
-				
-				
-				<button class="flex-c-m size3 s2-txt3 how-btn1 trans-04 where1">
-					Subscribe
-				</button>
-			</form>
-		</div>
-	</div>
-
-
-
-	
-
-<!--===============================================================================================-->	
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/countdowntime/moment.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
-	<script src="vendor/countdowntime/countdowntime.js"></script>
-	<script>
-		$('.cd100').countdown100({
-			/*Set Endtime here*/
-			/*Endtime must be > current time*/
-			endtimeYear: 0,
-			endtimeMonth: 0,
-			endtimeDate: 35,
-			endtimeHours: 18,
-			endtimeMinutes: 0,
-			endtimeSeconds: 0,
-			timeZone: "" 
-			// ex:  timeZone: "America/New_York"
-			//go to " http://momentjs.com/timezone/ " to get timezone
-		});
-	</script>
-<!--===============================================================================================-->
-	<script src="vendor/tilt/tilt.jquery.min.js"></script>
-	<script >
-		$('.js-tilt').tilt({
-			scale: 1.1
-		})
-	</script>
-<!--===============================================================================================-->
-	<script src="js/main.js"></script>
-
+    </div>-->
+    <div class="container contact">
+        <div class="sub-container">
+            <h1 class="bigHeading contact-heading">Reach Me</h1>
+            <p class="description contact-sub">Have something to say? Fill out the form and I'll reach you as soon as possible!</p><br><br>
+        </div>
+        <div class="sub-container contactFrom">
+            <form class="form" action="#" method="POST">
+                <div class="double">
+                    <input type="text" name="name" id="fullname" placeholder="Enter Your Name" required>
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+                </div>
+                <textarea class="single" name="message" id="message" placeholder="Write Me Something ..." required></textarea>
+                <input type="submit" value="S E N D" class="btn btn-1 btn-l single">
+            </form>
+        </div>
+    </div>
+    <!--<div class="hr2"></div>-->
+    <div class="container footer">
+        <div class="sub-container icons">
+            <a href="http://facebook.com/xayed42/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="http://instagram.com/xaa_du/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="http://twitter.com/xayed42/" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="sub-container credit">
+            <p id="credit">Crafted By: Xayed || All Rights Reserved © 2020</p>
+        </div>
+        
+    </div>
+    <script>
+    window.onscroll = function() {
+        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        document.getElementById("myBar").style.width = scrolled + "%";
+    };
+    </script>
 </body>
 </html>
